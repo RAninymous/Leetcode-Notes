@@ -44,3 +44,5 @@ class Solution:
 引申：
 - [746. 使用最小花费爬楼梯](https://leetcode.cn/problems/min-cost-climbing-stairs/)：爬楼梯+cost
 - [377. 组合总和 Ⅳ](https://leetcode.cn/problems/combination-sum-iv/)：自定义步幅的爬楼梯
+- [2466. 统计构造好字符串的方案数](https://leetcode.cn/problems/count-ways-to-build-good-strings/)：自定义目标台阶数并求和的爬楼梯
+- [2266. 统计打字方案数](https://leetcode.cn/problems/count-number-of-texts/)：分组 + 爬楼梯
