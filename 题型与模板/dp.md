@@ -4,7 +4,9 @@
 
 ### 爬楼梯
 
-**题干：**n级台阶，一次1或2，几种方式爬到顶
+**题干：**n级台阶，一次爬1或2，几种方式爬到顶。
+
+链接：[70. 爬楼梯](https://leetcode.cn/problems/climbing-stairs/description/)
 
 递归
 ```
@@ -38,3 +40,7 @@ class Solution:
             a, b = b, a+b
         return b
 ```
+
+引申：
+- [746. 使用最小花费爬楼梯](https://leetcode.cn/problems/min-cost-climbing-stairs/)：爬楼梯+cost
+- [377. 组合总和 Ⅳ](https://leetcode.cn/problems/combination-sum-iv/)：自定义步幅的爬楼梯
